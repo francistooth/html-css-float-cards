@@ -29,6 +29,7 @@ p {
 .boxContainer {
     width: 100%;
     margin: 0 auto;
+    clear: both;
 }
 
 .box {
@@ -36,6 +37,7 @@ p {
     height: 100px;
     float: left;
     margin-bottom: 50px;
+    overflow: auto;
 }
 
 .boximg {
