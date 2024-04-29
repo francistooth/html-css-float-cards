@@ -1,0 +1,68 @@
+* {
+    font-family: "Fredoka", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body container */
+
+#container {
+    margin: 10px 300px 0px;
+}
+
+/* title and text */
+
+.bigTitle {
+    text-align: center;
+    color: #E53170;
+    margin: 30px;
+}
+
+p {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* boxes */
+
+.boxContainer {
+    width: 100%;
+}
+
+.box {
+    width: calc(100% / 3);
+    height: 100px;
+    background-color: #0f0e17;
+    float: left;
+}
+
+.boximg {
+    float: left;
+    height: 100%;
+}
+
+/* infos */
+
+.info {
+    padding: 10px 10px 10px 120px;
+}
+
+.info > h3, .job, .contact {
+    line-height: 20px;
+}
+
+h3 {
+    color: white;
+    margin: 5px auto 5px;
+}
+
+.job {
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.contact {
+    color: #338cb7;
+}
